@@ -23,6 +23,7 @@
 		0D4451E7216062D000481156 /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D4451E6216062D000481156 /* siren.mp3 */; };
 		0D4451E92160729100481156 /* siren2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D4451E82160729100481156 /* siren2.mp3 */; };
 		0D4451EB216079E300481156 /* goldBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D4451EA216079E300481156 /* goldBubble.png */; };
+		0D690C7C23A2C4140017FE50 /* AlsoSprachBrooks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D690C7B23A2C4130017FE50 /* AlsoSprachBrooks.mp3 */; };
 		0D8A11BA215F66AD0017BF5E /* drumSnare1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A11B9215F66AC0017BF5E /* drumSnare1.mp3 */; };
 		0D8A11BC215F66B50017BF5E /* drumSnare2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A11BB215F66B50017BF5E /* drumSnare2.wav */; };
 		0DD424BA23A22FED00AAD9DB /* notBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424B923A22FED00AAD9DB /* notBeer.png */; };
@@ -84,6 +85,7 @@
 		0D4451E6216062D000481156 /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
 		0D4451E82160729100481156 /* siren2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren2.mp3; sourceTree = "<group>"; };
 		0D4451EA216079E300481156 /* goldBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldBubble.png; sourceTree = "<group>"; };
+		0D690C7B23A2C4130017FE50 /* AlsoSprachBrooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AlsoSprachBrooks.mp3; sourceTree = "<group>"; };
 		0D8A11B9215F66AC0017BF5E /* drumSnare1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumSnare1.mp3; sourceTree = "<group>"; };
 		0D8A11BB215F66B50017BF5E /* drumSnare2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumSnare2.wav; sourceTree = "<group>"; };
 		0DD424B923A22FED00AAD9DB /* notBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notBeer.png; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		0D4298F9233B20AF0080B259 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				0D690C7B23A2C4130017FE50 /* AlsoSprachBrooks.mp3 */,
 				0DD424C123A233BD00AAD9DB /* wine.mp3 */,
 				0DDB1A37232F17F2000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 */,
 				0DD424C523A234BA00AAD9DB /* beer.mp3 */,
@@ -355,6 +358,7 @@
 				0D429913233B254B0080B259 /* bubble1024.png in Resources */,
 				0D8A11BC215F66B50017BF5E /* drumSnare2.wav in Resources */,
 				0DE63315215DB1B600BF5E67 /* Main.storyboard in Resources */,
+				0D690C7C23A2C4140017FE50 /* AlsoSprachBrooks.mp3 in Resources */,
 				0DD424BC23A22FF600AAD9DB /* severalBeers.jpeg in Resources */,
 				0DE6330C215DB1B600BF5E67 /* GameScene.sks in Resources */,
 				0D429919233B271A0080B259 /* bubble80.png in Resources */,

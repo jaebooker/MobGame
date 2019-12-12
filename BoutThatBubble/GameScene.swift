@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode?
     //create background music object
 //    let backgroundSound = SKAudioNode(fileNamed: "Raven&KreynCopyrightFreeMusic.mp3")
-    var musicForGame = Bundle.main.path(forResource: "99bottles", ofType: "mp3")!
+    var musicForGame = Bundle.main.path(forResource: "AlsoSprachBrooks", ofType: "mp3")!
     //"Raven&KreynCopyrightFreeMusic"
     //"Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons)"
     var backgroundMusicPlayer = AVAudioPlayer()
