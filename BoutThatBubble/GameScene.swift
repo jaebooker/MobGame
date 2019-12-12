@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode?
     //create background music object
 //    let backgroundSound = SKAudioNode(fileNamed: "Raven&KreynCopyrightFreeMusic.mp3")
-    var musicForGame = Bundle.main.path(forResource: "Raven&KreynCopyrightFreeMusic", ofType: "mp3")!
+    var musicForGame = Bundle.main.path(forResource: "99bottles", ofType: "mp3")!
     //"Raven&KreynCopyrightFreeMusic"
     //"Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons)"
     var backgroundMusicPlayer = AVAudioPlayer()
@@ -61,7 +61,7 @@ class GameScene: SKScene {
             label.run(SKAction.fadeIn(withDuration: 2.0))
             label.text = "\(score)"
         }
-        createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
+        createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
     }
     
     
@@ -83,10 +83,10 @@ class GameScene: SKScene {
             var bubbleSound: SKAudioNode
             //toggle soundSwitch, so sound has some variability
             if soundSwitch == 0 {
-                bubbleSound = SKAudioNode(fileNamed: "drumSnare1.mp3")
+                bubbleSound = SKAudioNode(fileNamed: "beer.mp3")
                 soundSwitch = 1
             } else {
-                bubbleSound = SKAudioNode(fileNamed: "drumSnare2.wav")
+                bubbleSound = SKAudioNode(fileNamed: "wine.mp3")
                 soundSwitch = 0
             }
             //prevents soundeffect from playing more than one time per use
@@ -108,26 +108,26 @@ class GameScene: SKScene {
             bubbleSpeedCount -= 0.25
             label!.text = "\(score)"
             //create two more bubbles to replace the one destroyed
-            createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
-            createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
+            createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
+            createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
             bubbleCount -= 1
             //creates a few red bubbles
             if score % 3 == 0 {
-                createBubble(name: "redBubble", image: "redBubble", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
+                createBubble(name: "redBubble", image: "notBeer", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
             }
             //creates faster gold bubbles
             if score % 5 == 0 {
-                createBubble(name: "goldBubble", image: "goldBubble", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "extra big")
+                createBubble(name: "goldBubble", image: "severalBears", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "extra big")
             }
             //creates smaller, not as fast gold bubbles
             if score % 10 == 0 {
-                createBubble(name: "goldBubble", image: "goldBubble", bubbleSpeed: bubbleSpeedCount - 2, sizeType: "big")
+                createBubble(name: "goldBubble", image: "severalBeers", bubbleSpeed: bubbleSpeedCount - 2, sizeType: "big")
             }
         } else if atPoint(location).name == "redBubble" {
             //red bubbles are smaller, so are worth more points
             score += 5
             label!.text = "\(score)"
-            let redBubbleSound = SKAudioNode(fileNamed: "siren.mp3")
+            let redBubbleSound = SKAudioNode(fileNamed: "bottle.mp3")
             redBubbleSound.autoplayLooped = false
             addChild(redBubbleSound)
             self.run(SKAction.sequence([
@@ -138,15 +138,15 @@ class GameScene: SKScene {
                 }]))
             atPoint(location).removeFromParent()
             //creates smaller blue bubbles, at a slower speed
-            createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount + 1, sizeType: "small")
-            createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount + 1, sizeType: "small")
+            createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount + 1, sizeType: "small")
+            createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount + 1, sizeType: "small")
             //slows the overall speed slightly
             bubbleSpeedCount += 0.25
         } else if atPoint(location).name == "goldBubble" {
             //gold bubbles are faster, and rare, so they are worth much more
             score += 20
             label!.text = "\(score)"
-            let redBubbleSound = SKAudioNode(fileNamed: "siren.mp3")
+            let redBubbleSound = SKAudioNode(fileNamed: "wine.mp3")
             redBubbleSound.autoplayLooped = false
             addChild(redBubbleSound)
             self.run(SKAction.sequence([
@@ -157,8 +157,8 @@ class GameScene: SKScene {
                 }]))
             atPoint(location).removeFromParent()
             //gold bubbles create larger, faster red bubbles
-            createBubble(name: "redBubble", image: "redBubble", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "big")
-            createBubble(name: "redBubble", image: "redBubble", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "big")
+            createBubble(name: "redBubble", image: "notBeer", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "big")
+            createBubble(name: "redBubble", image: "notBeer", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "big")
             //gold bubbles slow the overall speed slightly
             bubbleSpeedCount += 0.5
         }
@@ -187,7 +187,7 @@ class GameScene: SKScene {
         }
         //if there are no bubbles left, restarts game
         if !bubbleCheck {
-            let siren = SKAudioNode(fileNamed: "siren2.mp3")
+            let siren = SKAudioNode(fileNamed: "beer.mp3")
             siren.autoplayLooped = false
             addChild(siren)
             self.run(SKAction.sequence([
@@ -212,7 +212,7 @@ class GameScene: SKScene {
             //resets speed
             bubbleSpeedCount = 10
             bubbleCount = 0
-            createBubble(name: "bubble", image: "bibble", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
+            createBubble(name: "bubble", image: "beerBottle2", bubbleSpeed: bubbleSpeedCount, sizeType: "normal")
         }
     }
 }

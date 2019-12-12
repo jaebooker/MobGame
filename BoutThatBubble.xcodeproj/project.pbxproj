@@ -15,7 +15,6 @@
 		0D42990F233B24C20080B259 /* bubble152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D42990E233B24C20080B259 /* bubble152.png */; };
 		0D429911233B25000080B259 /* bubble167.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D429910233B25000080B259 /* bubble167.png */; };
 		0D429913233B254B0080B259 /* bubble1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D429912233B254B0080B259 /* bubble1024.png */; };
-		0D429917233B26390080B259 /* bubble87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D429916233B26390080B259 /* bubble87.png */; };
 		0D429919233B271A0080B259 /* bubble80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D429918233B271A0080B259 /* bubble80.png */; };
 		0D42991B233B27400080B259 /* bubble120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D42991A233B27400080B259 /* bubble120.png */; };
 		0D42991D233B276F0080B259 /* bubble180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D42991C233B276F0080B259 /* bubble180.png */; };
@@ -26,6 +25,14 @@
 		0D4451EB216079E300481156 /* goldBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D4451EA216079E300481156 /* goldBubble.png */; };
 		0D8A11BA215F66AD0017BF5E /* drumSnare1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A11B9215F66AC0017BF5E /* drumSnare1.mp3 */; };
 		0D8A11BC215F66B50017BF5E /* drumSnare2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A11BB215F66B50017BF5E /* drumSnare2.wav */; };
+		0DD424BA23A22FED00AAD9DB /* notBeer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424B923A22FED00AAD9DB /* notBeer.png */; };
+		0DD424BC23A22FF600AAD9DB /* severalBeers.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424BB23A22FF600AAD9DB /* severalBeers.jpeg */; };
+		0DD424BE23A22FFE00AAD9DB /* beerBottle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424BD23A22FFE00AAD9DB /* beerBottle2.png */; };
+		0DD424C023A2300400AAD9DB /* crackabottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424BF23A2300400AAD9DB /* crackabottle.jpg */; };
+		0DD424C223A233BD00AAD9DB /* wine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424C123A233BD00AAD9DB /* wine.mp3 */; };
+		0DD424C423A234B300AAD9DB /* bottle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424C323A234B300AAD9DB /* bottle.mp3 */; };
+		0DD424C623A234BA00AAD9DB /* beer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424C523A234BA00AAD9DB /* beer.mp3 */; };
+		0DD424C823A2358F00AAD9DB /* 99bottles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD424C723A2358F00AAD9DB /* 99bottles.mp3 */; };
 		0DDB1A38232F17F3000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1A37232F17F2000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 */; };
 		0DDB1A3A232F23D4000A24CA /* Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1A39232F23D4000A24CA /* Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3 */; };
 		0DE6330A215DB1B600BF5E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE63309215DB1B600BF5E67 /* AppDelegate.swift */; };
@@ -69,7 +76,6 @@
 		0D42990E233B24C20080B259 /* bubble152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble152.png; sourceTree = "<group>"; };
 		0D429910233B25000080B259 /* bubble167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble167.png; sourceTree = "<group>"; };
 		0D429912233B254B0080B259 /* bubble1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble1024.png; sourceTree = "<group>"; };
-		0D429916233B26390080B259 /* bubble87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble87.png; path = ../../../../bubble87.png; sourceTree = "<group>"; };
 		0D429918233B271A0080B259 /* bubble80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble80.png; sourceTree = "<group>"; };
 		0D42991A233B27400080B259 /* bubble120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble120.png; sourceTree = "<group>"; };
 		0D42991C233B276F0080B259 /* bubble180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble180.png; sourceTree = "<group>"; };
@@ -80,6 +86,14 @@
 		0D4451EA216079E300481156 /* goldBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldBubble.png; sourceTree = "<group>"; };
 		0D8A11B9215F66AC0017BF5E /* drumSnare1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumSnare1.mp3; sourceTree = "<group>"; };
 		0D8A11BB215F66B50017BF5E /* drumSnare2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumSnare2.wav; sourceTree = "<group>"; };
+		0DD424B923A22FED00AAD9DB /* notBeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notBeer.png; sourceTree = "<group>"; };
+		0DD424BB23A22FF600AAD9DB /* severalBeers.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = severalBeers.jpeg; sourceTree = "<group>"; };
+		0DD424BD23A22FFE00AAD9DB /* beerBottle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerBottle2.png; sourceTree = "<group>"; };
+		0DD424BF23A2300400AAD9DB /* crackabottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crackabottle.jpg; path = ../../../crackabottle.jpg; sourceTree = "<group>"; };
+		0DD424C123A233BD00AAD9DB /* wine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wine.mp3; sourceTree = "<group>"; };
+		0DD424C323A234B300AAD9DB /* bottle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bottle.mp3; sourceTree = "<group>"; };
+		0DD424C523A234BA00AAD9DB /* beer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beer.mp3; sourceTree = "<group>"; };
+		0DD424C723A2358F00AAD9DB /* 99bottles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 99bottles.mp3; sourceTree = "<group>"; };
 		0DDB1A37232F17F2000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Raven&KreynCopyrightFreeMusic.mp3"; sourceTree = "<group>"; };
 		0DDB1A39232F23D4000A24CA /* Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3"; sourceTree = "<group>"; };
 		0DE63306215DB1B600BF5E67 /* BoutThatBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoutThatBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,11 +145,14 @@
 		0D4298F8233B208F0080B259 /* photos */ = {
 			isa = PBXGroup;
 			children = (
+				0DD424BF23A2300400AAD9DB /* crackabottle.jpg */,
+				0DD424BD23A22FFE00AAD9DB /* beerBottle2.png */,
+				0DD424BB23A22FF600AAD9DB /* severalBeers.jpeg */,
+				0DD424B923A22FED00AAD9DB /* notBeer.png */,
 				0D4451EA216079E300481156 /* goldBubble.png */,
 				0D4298F6233B20870080B259 /* goldBubble40.png */,
 				0D4451D021602A4700481156 /* underagua.jpg */,
 				0D42991C233B276F0080B259 /* bubble180.png */,
-				0D429916233B26390080B259 /* bubble87.png */,
 				0D429910233B25000080B259 /* bubble167.png */,
 				0D4298FE233B21C40080B259 /* bubble58.png */,
 				0D42990C233B23FA0080B259 /* bubble76.png */,
@@ -155,8 +172,12 @@
 		0D4298F9233B20AF0080B259 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				0DD424C123A233BD00AAD9DB /* wine.mp3 */,
 				0DDB1A37232F17F2000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 */,
+				0DD424C523A234BA00AAD9DB /* beer.mp3 */,
+				0DD424C723A2358F00AAD9DB /* 99bottles.mp3 */,
 				0DDB1A39232F23D4000A24CA /* Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3 */,
+				0DD424C323A234B300AAD9DB /* bottle.mp3 */,
 				0D4451E6216062D000481156 /* siren.mp3 */,
 				0D4451E82160729100481156 /* siren2.mp3 */,
 				0D8A11B9215F66AC0017BF5E /* drumSnare1.mp3 */,
@@ -334,29 +355,36 @@
 				0D429913233B254B0080B259 /* bubble1024.png in Resources */,
 				0D8A11BC215F66B50017BF5E /* drumSnare2.wav in Resources */,
 				0DE63315215DB1B600BF5E67 /* Main.storyboard in Resources */,
+				0DD424BC23A22FF600AAD9DB /* severalBeers.jpeg in Resources */,
 				0DE6330C215DB1B600BF5E67 /* GameScene.sks in Resources */,
 				0D429919233B271A0080B259 /* bubble80.png in Resources */,
 				0D42991B233B27400080B259 /* bubble120.png in Resources */,
 				0D429911233B25000080B259 /* bubble167.png in Resources */,
 				0DDB1A3A232F23D4000A24CA /* Royalty Free Heavy Metal Instrumental - Game Over (Creative Commons).mp3 in Resources */,
 				0DE63317215DB1B800BF5E67 /* Assets.xcassets in Resources */,
+				0DD424BA23A22FED00AAD9DB /* notBeer.png in Resources */,
 				0DE6333E215DB64C00BF5E67 /* background.jpg in Resources */,
 				0DDB1A38232F17F3000A24CA /* Raven&KreynCopyrightFreeMusic.mp3 in Resources */,
 				0D4298FD233B21980080B259 /* bubble60.png in Resources */,
 				0D4298F7233B20870080B259 /* goldBubble40.png in Resources */,
 				0D4451EB216079E300481156 /* goldBubble.png in Resources */,
 				0D4451E521605BA200481156 /* redBubble4.png in Resources */,
+				0DD424C023A2300400AAD9DB /* crackabottle.jpg in Resources */,
+				0DD424C223A233BD00AAD9DB /* wine.mp3 in Resources */,
 				0DE6331A215DB1B800BF5E67 /* LaunchScreen.storyboard in Resources */,
 				0DE6330E215DB1B600BF5E67 /* Actions.sks in Resources */,
 				0D42990F233B24C20080B259 /* bubble152.png in Resources */,
 				0D42991D233B276F0080B259 /* bubble180.png in Resources */,
-				0D429917233B26390080B259 /* bubble87.png in Resources */,
 				0D8A11BA215F66AD0017BF5E /* drumSnare1.mp3 in Resources */,
+				0DD424C623A234BA00AAD9DB /* beer.mp3 in Resources */,
 				0D42990D233B23FA0080B259 /* bubble76.png in Resources */,
 				0D4298FF233B21C40080B259 /* bubble58.png in Resources */,
+				0DD424C823A2358F00AAD9DB /* 99bottles.mp3 in Resources */,
+				0DD424BE23A22FFE00AAD9DB /* beerBottle2.png in Resources */,
 				0D4298FB233B21170080B259 /* bubble20.png in Resources */,
 				0DE63340215DB65800BF5E67 /* bibble.jpg in Resources */,
 				0D4451E92160729100481156 /* siren2.mp3 in Resources */,
+				0DD424C423A234B300AAD9DB /* bottle.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
