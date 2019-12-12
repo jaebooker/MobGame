@@ -31,6 +31,7 @@ class GameScene: SKScene {
         bubble.name = name
         bubble.physicsBody?.isDynamic = true
         bubble.physicsBody?.affectedByGravity = false
+        bubble.zRotation = .pi / 4
         bubble.position.x = 425
         bubble.position.y = CGFloat.random(in: Range<CGFloat>(uncheckedBounds: (lower: -627.0, upper: 627.0)))
         addChild(bubble)
