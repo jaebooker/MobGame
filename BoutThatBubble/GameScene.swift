@@ -118,7 +118,7 @@ class GameScene: SKScene {
             }
             //creates faster gold bubbles
             if score % 5 == 0 {
-                createBubble(name: "goldBubble", image: "severalBears", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "extra big")
+                createBubble(name: "goldBubble", image: "severalBeers", bubbleSpeed: bubbleSpeedCount - 3, sizeType: "extra big")
             }
             //creates smaller, not as fast gold bubbles
             if score % 10 == 0 {
